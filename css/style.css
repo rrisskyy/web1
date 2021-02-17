@@ -1,0 +1,233 @@
+body{
+    background-color: #f7f7f7;
+}
+h1 {  
+    font-family: 'Montserrat, sans-serif';  
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+hr {
+    border-color: black;
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 70px;
+    margin: 100px auto;
+}
+
+.navbar-brand{
+    color:#3C4563;
+    font-size: 4rem;
+    position: relative;
+}
+.nav-link{
+    color: #BCB626;
+}
+
+.top-container{
+    background-color: #FAF35D;
+    height: 100vh;
+}
+.ball1{
+    width: 850px;
+    height: 850px;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.16;
+	border-radius: 0 0 0 100%;
+    top: -170px;
+    right: 0px;
+}
+.ball2{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.16;
+    bottom: 100px;
+    left: -400px;
+}
+.phone1{
+    width: 27rem;
+    position: absolute;
+    right: 150px;
+    bottom: 40px;
+}
+.desc{
+    position: absolute;
+    width: 40%;
+    left: 120px;
+    top: 15rem;
+}
+li{
+    padding: 0 25px;
+}
+
+.btn1 {
+  z-index: 2;
+  position: relative;
+  top: 30rem;
+  left: 12rem;
+  height: 4rem;
+  width: 13rem;
+  border-radius: 50px;
+  background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
+  box-shadow: 0 20px 30px -6px rgba(171,88,219,0.5);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.btn1:hover{
+    background-image: linear-gradient( 135deg, #0396FF 100%, #ABDCFF 0%);
+    color: white;
+}
+.btn2 {
+    z-index: 2;
+    position: relative;
+    top: 30rem;
+    right: -200px;
+    height: 4rem;
+    width: 13rem;
+    border-radius: 50px;
+    background-image: linear-gradient( 135deg, #0396FF 0%, #ABDCFF 100%);  
+    box-shadow: 0 20px 30px -6px rgba(171,88,219,0.5);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  .btn2:hover{
+    background-image: linear-gradient( 135deg, #0396FF 100%, #ABDCFF 0%);;
+    color: white;
+}
+.downhover{
+    width: 120px;
+    position: relative;
+    top: 26.2rem;
+    left: .75rem;
+}
+.downhover2{
+    width: 120px;
+    position: relative;
+    top: 26.2rem;
+    left: -17rem;
+}
+.bi{
+    width: 35px;
+    height: 35px;
+}
+
+.bawah{
+    position: absolute;
+    bottom: 0;
+    left: 100vh;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.middle-container{
+    padding-top: 200px;
+    background-color: #fafafa;
+    height: 100vh;
+}
+.corner{
+    position: absolute;
+}
+.wh-500{
+    height: 500px;
+    width: 500px;
+}
+.carousel-caption{
+    position:absolute;
+    top: -1.5rem;
+}
+
+.middle-container-2{
+    height: 100vh;
+    background-color: #FAfafa;
+    margin: auto;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        color:#3C4563;
+        font-size: 4rem;
+        position: relative;
+    }
+    .nav-link{
+        color: #BCB626;
+    }
+    .top-container{
+        background-color: #FAF35D;
+        height: 1005px;
+        padding-top: 15px;
+    }
+    .phone1{
+        width: 240px;
+        position: absolute;
+        left: 16vh;
+        bottom: 40px;
+    }
+    .ball1{
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        position: absolute;
+        opacity: 0.16;
+        border-bottom-left-radius: 100%;
+        top: -170px;
+        /* right: 0px; */
+    }
+    .ball2{
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.16;
+        bottom: 100px;
+        left: -400px;
+    }
+    .bawah{
+        display: none;
+    }
+    .desc{
+        position: absolute;
+        width: 80%;
+        top: 15rem;
+        left: 10%;
+        margin: auto;
+    }
+    li{
+        padding: 0 25px;
+    }
+    
+    .btn1 {
+      z-index: 2;
+      position: absolute;
+      top: 50rem;
+      height: 4rem;
+      left: 1rem;
+        
+    }
+    .btn2 {
+        position: absolute;
+        top: 50rem;
+        height: 4rem;
+        right: 1rem;
+    }
+    
+    .downhover{
+        display: none;
+    }
+    .downhover2{
+        display: none;
+    }
+  }
