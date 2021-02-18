@@ -1,11 +1,7 @@
 body{
-    background-color: #f7f7f7;
-}
-h1 {  
-    font-family: 'Montserrat, sans-serif';  
-    font-size: 3rem;  
-    line-height: 1.5;  
-    font-weight: 900;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 hr {
     border-color: black;
@@ -14,23 +10,44 @@ hr {
     width: 70px;
     margin: 100px auto;
 }
-
-.navbar-brand{
-    color:#3C4563;
-    font-size: 4rem;
-    position: relative;
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
 }
-.nav-link{
-    color: #BCB626;
+p{
+    color: #8f8f8f;
 }
 
 .top-container{
-    background-color: #FAF35D;
+    background-color: rgb(85, 116, 255);
     height: 100vh;
 }
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    color:#3C4563;
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    padding: 0 25px;
+}
+/* ~~~~~~~~~~~~~~ */
+
+
+
+/* Ball */
 .ball1{
-    width: 850px;
-    height: 850px;
+    width: 60%;
+    height: 50%;
     background-color: #fff;
     position: absolute;
     opacity: 0.16;
@@ -39,87 +56,89 @@ hr {
     right: 0px;
 }
 .ball2{
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    height: 50%;
     background-color: #fff;
     position: absolute;
-    border-radius: 100%;
+    border-radius: 0% 100% 0% 100%;
     opacity: 0.16;
-    bottom: 100px;
-    left: -400px;
+    bottom: 0px;
+    left: -380px;
 }
-.phone1{
-    width: 27rem;
-    position: absolute;
-    right: 150px;
-    bottom: 40px;
+/* ~~~~~~ */
+
+
+
+/* Description title */
+.slide1{
+    max-width: 900px;
+    z-index: 4;
 }
 .desc{
-    position: absolute;
-    width: 40%;
-    left: 120px;
-    top: 15rem;
-}
-li{
-    padding: 0 25px;
-}
-
-.btn1 {
-  z-index: 2;
-  position: relative;
-  top: 30rem;
-  left: 12rem;
-  height: 4rem;
-  width: 13rem;
-  border-radius: 50px;
-  background-image: linear-gradient( 135deg, #ABDCFF 0%, #0396FF 100%);
-  box-shadow: 0 20px 30px -6px rgba(171,88,219,0.5);
-  outline: none;
-  border: none;
-  cursor: pointer;
-  color: white;
-}
-.btn1:hover{
-    background-image: linear-gradient( 135deg, #0396FF 100%, #ABDCFF 0%);
+    padding: 250px 60px 100px 60px;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.3rem;
+    line-height: 1.5;
+    width: 100%;
     color: white;
 }
-.btn2 {
-    z-index: 2;
+/* ~~~~~~~~~~~~~~~~~ */
+
+
+
+/* Button Download */
+.button{
     position: relative;
-    top: 30rem;
-    right: -200px;
-    height: 4rem;
-    width: 13rem;
-    border-radius: 50px;
-    background-image: linear-gradient( 135deg, #0396FF 0%, #ABDCFF 100%);  
+    left: 15%;
+}
+.btn1{
+    z-index: 99;
     box-shadow: 0 20px 30px -6px rgba(171,88,219,0.5);
-    outline: none;
-    border: none;
     cursor: pointer;
     color: white;
-  }
-  .btn2:hover{
-    background-image: linear-gradient( 135deg, #0396FF 100%, #ABDCFF 0%);;
-    color: white;
+    margin: 5% 3% 5% 0;
 }
-.downhover{
-    width: 120px;
-    position: relative;
-    top: 26.2rem;
-    left: .75rem;
+/* ~~~~~~~~~~~~~~~ */
+
+
+
+/* Phone Logo */
+.phone{
+    position: absolute;
+    margin-top: 200px;
+    width:41%;
+        
 }
-.downhover2{
-    width: 120px;
-    position: relative;
-    top: 26.2rem;
-    left: -17rem;
+.math{
+    position: absolute;
+    margin-top: 405px;
+    margin-left: -13rem;
+    width: 15%;
 }
+.selfie{
+    z-index: 4;
+    position: absolute;
+    width: 15%;
+    margin-top: 360px;
+    margin-left: 190px;
+}
+.appreciation{
+    position: absolute;
+    width: 5%;
+    margin-top: 160px;
+    margin-left: 220px;
+}
+/* ~~~~~~~~~~~~~~~ */
+
+
+
+/* Button Down */
 .bi{
     width: 35px;
     height: 35px;
 }
-
 .bawah{
+    z-index:9999;
     position: absolute;
     bottom: 0;
     left: 100vh;
@@ -127,107 +146,91 @@ li{
     text-decoration: none;
     margin: 10px auto;
 }
+/* ~~~~~~~~~~~~` */
+
+
+/* Middle Container */
 .middle-container{
-    padding-top: 200px;
+    padding-top: 100px;
     background-color: #fafafa;
     height: 100vh;
 }
-.corner{
-    position: absolute;
+/* ~~~~~~~~~~~~~~~~ */
+
+
+/* Carousel2 */
+.feature{
+    width: 400px;
+    left: 3rem;
 }
 .wh-500{
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    max-width: 300px;
+    margin: auto;
 }
 .carousel-caption{
     position:absolute;
     top: -1.5rem;
-}
+} */
+/* ~~~~~~~~~~ */
 
 .middle-container-2{
     height: 100vh;
-    background-color: #FAfafa;
+    background-color: #3c4563;
     margin: auto;
 }
 
+/* Logos */
+.icon{
+    color: #fd5d41;
+    margin-bottom: 2rem;
+}
 
+.icon:hover{
+    color: #c53e26;
+}
 
+#benefits{
+    padding: 7% 15%;
+}
 
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
 
-
-@media only screen and (max-width: 600px) {
-    .navbar-brand{
-        color:#3C4563;
-        font-size: 4rem;
-        position: relative;
-    }
-    .nav-link{
-        color: #BCB626;
-    }
-    .top-container{
-        background-color: #FAF35D;
-        height: 1005px;
-        padding-top: 15px;
-    }
-    .phone1{
-        width: 240px;
-        position: absolute;
-        left: 16vh;
-        bottom: 40px;
-    }
-    .ball1{
-        width: 400px;
-        height: 400px;
-        background-color: #fff;
-        position: absolute;
-        opacity: 0.16;
-        border-bottom-left-radius: 100%;
-        top: -170px;
-        /* right: 0px; */
-    }
-    .ball2{
-        width: 500px;
-        height: 500px;
-        background-color: #fff;
-        position: absolute;
-        border-radius: 100%;
-        opacity: 0.16;
-        bottom: 100px;
-        left: -400px;
-    }
-    .bawah{
-        display: none;
-    }
-    .desc{
-        position: absolute;
-        width: 80%;
-        top: 15rem;
-        left: 10%;
-        margin: auto;
-    }
-    li{
-        padding: 0 25px;
-    }
+@media only screen and (max-width: 768px) {
     
-    .btn1 {
-      z-index: 2;
-      position: absolute;
-      top: 50rem;
-      height: 4rem;
-      left: 1rem;
+
+/* Phone Logo */
+.phone{
+    margin-top: -4px;
+    width:50%;
         
-    }
-    .btn2 {
-        position: absolute;
-        top: 50rem;
-        height: 4rem;
-        right: 1rem;
-    }
-    
-    .downhover{
-        display: none;
-    }
-    .downhover2{
-        display: none;
-    }
+}
+.math{
+    display: none;
+}
+.selfie{
+    z-index: 4;
+    width: 25%;
+    margin-top: 61px;
+    margin-left: 60px;
+}
+.appreciation{
+    /* position: absolute; */
+    width: 25%;
+    margin-top: -130px;
+    margin-left: 100px;
+}
+/* ~~~~~~~~~~~~~~~ */
+
+
+
+/* Button Down */
+.bawah{
+    display: none;
+}
+/* ~~~~~~~~~~~~` */
+
   }
