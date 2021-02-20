@@ -18,7 +18,6 @@ h3{
 p{
     color: #8f8f8f;
 }
-
 .top-container{
     background-color: rgb(85, 116, 255);
     height: 100vh;
@@ -159,9 +158,13 @@ li{
 
 
 /* Carousel2 */
+
+#about-us{
+    padding: 7% 15%;
+}
 .feature{
     width: 400px;
-    left: 3rem;
+    left: 8rem;
 }
 .wh-500{
     height: 600px;
@@ -171,27 +174,27 @@ li{
 .carousel-caption{
     position:absolute;
     top: -1.5rem;
-} */
+}
 /* ~~~~~~~~~~ */
 
 .middle-container-2{
     height: 100vh;
-    background-color: #3c4563;
     margin: auto;
+    background: linear-gradient(rgb(85, 173, 255), rgb(85, 116, 255));
 }
 
 /* Logos */
 .icon{
-    color: #fd5d41;
+    color: #6f00ff;
     margin-bottom: 2rem;
 }
 
 .icon:hover{
-    color: #c53e26;
+    color: #390f86;
 }
 
-#benefits{
-    padding: 7% 15%;
+#feature{
+    padding: 4% 15%;
 }
 
 .feature-box{
@@ -199,32 +202,95 @@ li{
     padding: 5%;
 }
 
-@media only screen and (max-width: 768px) {
+
+.middle-container-3{
+    height: 100vh;
+    /* padding: 5% 10%; */
+    
+    /* background-color: rgb(85, 116, 255); */
+}
+
+
+
+.btn-4 {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+
+
+
+#section-plans{
+    padding-top: 2rem;
+
+}
+
+
+#testimoni{
+    padding: 4% 15%;
+    text-align: center;
+    background: linear-gradient(rgb(43, 80, 245), rgb(85, 116, 255));
+    height: 100vh;
+    color: white;
+}
+.comment{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.7rem;
+}
+.nophoto{
+    width: 15%;
+    max-width: 50%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(85, 116, 255);
+    text-align: center;
+}
+.press-logo{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
     
 
 /* Phone Logo */
 .phone{
-    margin-top: -4px;
-    width:50%;
+    bottom: 0px;
+    right: 0;
+    min-width:50%;
+    max-height: 50%;
         
 }
 .math{
-    display: none;
+    bottom: 0px;
+    min-width: 20%;
+    max-height: 20%;
 }
 .selfie{
     z-index: 4;
-    width: 25%;
-    margin-top: 61px;
-    margin-left: 60px;
+    bottom: 0px;
+    min-width:25%;
+    max-width: 25%;
+    right:4.5rem;
 }
 .appreciation{
-    /* position: absolute; */
-    width: 25%;
-    margin-top: -130px;
-    margin-left: 100px;
+    min-width: 25%;
+    max-height: 25%;
+    bottom: 14.2rem;
 }
 /* ~~~~~~~~~~~~~~~ */
 
+.desc1{
+    font-family: 'Montserrat-Black', sans-serif;
+    width: 100%;
+}
 
 
 /* Button Down */
@@ -232,5 +298,51 @@ li{
     display: none;
 }
 /* ~~~~~~~~~~~~` */
+
+
+#about-us{
+    margin: 50rem auto 0;
+    width: 100%;
+}
+.feature{
+    display: none;
+}
+.carousel-caption{
+    display: none;
+}
+.nophoto{
+    width: 40%;
+}
+#testimoni{
+    padding-top: 3.4rem;
+    position: relative;
+    bottom: -80rem;
+    right: 0;
+    padding-bottom: 1rem;
+}
+.comment{
+    font-size: 1.4rem;
+}
+.press-logo{
+    width: 40%;
+}
+.press{
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   }
