@@ -1,2 +1,2 @@
 Desktop App Web
-<a href="https://rrisskyy.github.io/nays/">Click Here!</a>
+<a href="https://rrisskyy.github.io/web1/">Click Here!</a>
